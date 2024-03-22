@@ -1,1 +1,5 @@
 # parf
+A package wrapper made for yiandOS. It wraps package managers together and provides a unified interface for those that want to pick and choose which package manager they want to use, allowing for better version differentiation and seperation of packages by package manager. It also provides a way to install packages from multiple package managers at once, through sandboxing and isolation of package managers. The main package manager will be pacman, and will not be sandboxed, but at some point will have a config system to allow for changing of main package manager.
+Package managers in parf have their packages installed with a root at /parf/manager/<package manager name>, so that they do not interfere with the system package manager. This is done by following the guides in managers.md for each package manager.
+Usage of parf requires that you install the packages managers provided in this repo directory following the instructions. parf can install packages managers for you, but this is still in the experimental phase.
+yiandOS live installer media come with parf preinstalled, so you can use it to install packages on the live media.

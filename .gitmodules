@@ -1,0 +1,9 @@
+[submodule "pacman"]
+	path = pacman
+	url = https://gitlab.archlinux.org/pacman/pacman
+[submodule "portage"]
+	path = portage
+	url = https://github.com/gentoo/portage
+[submodule "nix"]
+	path = nix
+	url = https://github.com/NixOS/nix
